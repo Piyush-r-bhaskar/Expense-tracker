@@ -20,7 +20,7 @@ html {
 }
 .container {
   display: flex;
-  height: max-content;
+  min-height: 100vh;
   flex-direction: column;
   margin: 1rem auto;
   width: 330px;
