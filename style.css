@@ -6,7 +6,7 @@
   text-transform: capitalize;
 }
 
-body {
+html {
   background-image: linear-gradient(
     to right top,
     #c9eae3,
@@ -15,7 +15,6 @@ body {
     #bacdc5,
     #b5c4bc
   );
-  height:100vh;
   background-size: cover;
   background-repeat: no-repeat
 }
