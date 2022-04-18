@@ -6,11 +6,23 @@
   text-transform: capitalize;
 }
 
+html,body {
+  background-image: linear-gradient(
+    to right top,
+    #c9eae3,
+    #c4e0d8,
+    #bfd7ce,
+    #bacdc5,
+    #b5c4bc
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .container {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
- margin: 2rem auto;
+ margin: 0rem auto;
   width: 330px;
   padding: 5px 12px;
   background-image: linear-gradient(
@@ -36,7 +48,7 @@
     #08301c
   );
 }
-.lightTheme{
+.lightTheme {
   color: #000;
   background-image: linear-gradient(
     to right top,
