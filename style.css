@@ -15,12 +15,13 @@ body {
     #bacdc5,
     #b5c4bc
   );
+  height:100vh;
   background-size: cover;
   background-repeat: no-repeat
 }
 .container {
   display: flex;
-  height: 94vh;
+  height: max-content;
   flex-direction: column;
   margin: 1rem auto;
   width: 330px;
@@ -299,7 +300,13 @@ h3 {
 .new i {
   font-size: 1.8rem;
   cursor: pointer;
+  color:#1b9772;
+  transition:.3s ease;
 }
+.new i:hover{
+  color:#098a4e
+}
+
 .add {
   display: none;
   position: absolute;
